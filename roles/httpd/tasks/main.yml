@@ -1,3 +1,6 @@
 ---
 - name: Instalando o HTTPD
   yum: name=httpd state=present
+
+- name: Iniciando e Habilitando o HTTPD
+  service: name=httpd state=started enabled=yes
