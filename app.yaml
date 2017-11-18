@@ -1,0 +1,6 @@
+---
+- name: Configurando App
+  hosts: all
+
+  roles:
+    - app
