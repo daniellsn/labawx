@@ -1,0 +1,6 @@
+---
+- name: Criando servidor WEB
+  hosts: all
+
+  roles:
+    - httpd
