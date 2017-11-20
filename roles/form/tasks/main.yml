@@ -1,0 +1,3 @@
+---
+- name: Criando arquivo preenchendo variaveis
+  template: src=lab_form.txt.j2 dest=/tmp/lab_form.txt

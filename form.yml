@@ -1,0 +1,6 @@
+---
+- name: Teste Form
+  hosts: all
+
+  roles:
+    - form
